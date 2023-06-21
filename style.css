@@ -304,23 +304,24 @@ p {
     height: 100%;
     width:100%;
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-    opacity: 0.9;
+    opacity: 0.96;
     z-index: -1;
 }
 #services .service-bottom .icon {
     height: 80px;
     width: 80px;
-    margin-bottom: 20px;
+    margin: 0 auto 20px auto;
 }
 #services .service-item h2 {
     font-size: 2rem;
     color: white;
     margin-bottom: 10px;
     text-transform: uppercase;
+    margin: 0 auto 10px auto;
 }
 #services .service-item p{
     color: white;
-    text-align: left;
+    text-align: center;
 }
 /* End Services Section */
 
@@ -373,6 +374,20 @@ p {
 #projects .project-info p {
 	color: white;
 }
+#projects .project-info .portfolio-btn {
+    color: white;
+    background: transparent;
+    border: 2px solid white;
+    font-size: 1.8rem;
+    margin-top: 30px;
+    padding: 10px 50px;
+    transition: all 0.3s ease;
+}
+#projects .project-info .portfolio-btn:hover {
+    background: crimson;
+    color: white;
+    border: 2px solid transparent;
+}
 #projects .project-img {
 	/* flex-basis: 50%; */
 	height: 300px;
@@ -409,6 +424,10 @@ p {
 #about .col-left {
     width: 250px;
     height: 360px;
+}
+#about .col-left .about-img img {
+    height: auto;
+    width: 100%;
 }
 #about .col-right {
     width: 100%;    
